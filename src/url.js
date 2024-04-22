@@ -1,1 +1,1 @@
-export const baseUrl = `https://www.courserapid.com`
+export const baseUrl = `https://api.mdshkproperties.online`
