@@ -31,7 +31,7 @@ function AgentLogin() {
         toast.success(response.data.message);
         localStorage.setItem("access_token", response.data.data.accessToken);
         localStorage.setItem("refresh_token", response.data.data.refreshToken);
-        router.push("/agent-dashboard");
+        router.push("/agent-dashboard/all-listings");
       } else {
         toast.error("Login failed. Please try again");
       }
